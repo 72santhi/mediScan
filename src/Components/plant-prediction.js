@@ -10,7 +10,7 @@ const predictPlant = async (imageUrl, model) => {
       formData.append('image', blob);
       formData.append('model', model);
 
-      const response = await fetch('https://1b9b-2409-408c-279a-d07f-7856-fa28-c34c-464b.ngrok-free.app/', {
+      const response = await fetch('https://0fbb-43-227-132-243.ngrok-free.app/', {
         method: 'POST',
         body: formData,
       });
